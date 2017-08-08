@@ -13,8 +13,8 @@
 		6CFAC2E71F386A5000A175E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFAC2E51F386A5000A175E5 /* Main.storyboard */; };
 		6CFAC2E91F386A5000A175E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CFAC2E81F386A5000A175E5 /* Assets.xcassets */; };
 		6CFAC2EC1F386A5000A175E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFAC2EA1F386A5000A175E5 /* LaunchScreen.storyboard */; };
-		6CFAC2F61F386A8B00A175E5 /* UIImageView+LJImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFAC2F51F386A8B00A175E5 /* UIImageView+LJImageView.m */; };
 		6CFAC2F91F3871AE00A175E5 /* LImageCacheCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFAC2F81F3871AE00A175E5 /* LImageCacheCell.m */; };
+		6CFAC3011F3965FE00A175E5 /* UIImageView+LJImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFAC3001F3965FE00A175E5 /* UIImageView+LJImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		6CFAC2E81F386A5000A175E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CFAC2EB1F386A5000A175E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CFAC2ED1F386A5000A175E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CFAC2F41F386A8B00A175E5 /* UIImageView+LJImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LJImageView.h"; sourceTree = "<group>"; };
-		6CFAC2F51F386A8B00A175E5 /* UIImageView+LJImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LJImageView.m"; sourceTree = "<group>"; };
 		6CFAC2F71F3871AE00A175E5 /* LImageCacheCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LImageCacheCell.h; sourceTree = "<group>"; };
 		6CFAC2F81F3871AE00A175E5 /* LImageCacheCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LImageCacheCell.m; sourceTree = "<group>"; };
+		6CFAC2FF1F3965FE00A175E5 /* UIImageView+LJImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LJImageView.h"; sourceTree = "<group>"; };
+		6CFAC3001F3965FE00A175E5 /* UIImageView+LJImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LJImageView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +48,7 @@
 		6CFAC2D01F386A5000A175E5 = {
 			isa = PBXGroup;
 			children = (
+				6CFAC2FE1F3965FE00A175E5 /* LWidgets */,
 				6CFAC2DB1F386A5000A175E5 /* LWidget */,
 				6CFAC2DA1F386A5000A175E5 /* Products */,
 			);
@@ -64,7 +65,6 @@
 		6CFAC2DB1F386A5000A175E5 /* LWidget */ = {
 			isa = PBXGroup;
 			children = (
-				6CFAC2F31F386A8B00A175E5 /* LWidget */,
 				6CFAC2DF1F386A5000A175E5 /* AppDelegate.h */,
 				6CFAC2E01F386A5000A175E5 /* AppDelegate.m */,
 				6CFAC2E21F386A5000A175E5 /* ViewController.h */,
@@ -88,13 +88,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6CFAC2F31F386A8B00A175E5 /* LWidget */ = {
+		6CFAC2FE1F3965FE00A175E5 /* LWidgets */ = {
 			isa = PBXGroup;
 			children = (
-				6CFAC2F41F386A8B00A175E5 /* UIImageView+LJImageView.h */,
-				6CFAC2F51F386A8B00A175E5 /* UIImageView+LJImageView.m */,
+				6CFAC2FF1F3965FE00A175E5 /* UIImageView+LJImageView.h */,
+				6CFAC3001F3965FE00A175E5 /* UIImageView+LJImageView.m */,
 			);
-			path = LWidget;
+			path = LWidgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,8 +173,8 @@
 				6CFAC2E41F386A5000A175E5 /* ViewController.m in Sources */,
 				6CFAC2E11F386A5000A175E5 /* AppDelegate.m in Sources */,
 				6CFAC2DE1F386A5000A175E5 /* main.m in Sources */,
+				6CFAC3011F3965FE00A175E5 /* UIImageView+LJImageView.m in Sources */,
 				6CFAC2F91F3871AE00A175E5 /* LImageCacheCell.m in Sources */,
-				6CFAC2F61F386A8B00A175E5 /* UIImageView+LJImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +341,7 @@
 				6CFAC2F21F386A5000A175E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
